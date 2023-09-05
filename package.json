@@ -1,0 +1,31 @@
+{
+  "name": "swagger-ts-cli",
+  "author": "LWJ",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "swagger": "bin/main.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "commander": "^9.4.0",
+    "fs-extra": "^11.1.1",
+    "swagger-typescript-api": "^13.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c593928572/swagger-ts-cli"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-ts",
+    "swagger-typescript",
+    "swagger-typescript-api",
+    "swagger-ts-cli"
+  ]
+}
