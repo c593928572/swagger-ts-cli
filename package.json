@@ -1,7 +1,7 @@
 {
   "name": "swagger-ts-cli",
   "author": "LWJ",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "index.js",
   "type": "module",
   "license": "MIT",
@@ -12,9 +12,6 @@
     "bin",
     "lib"
   ],
-  "scripts": {
-    "prepare": "npx crlf --set=LF node_modules/.bin/jira-prepare-commit-msg"
-  },
   "dependencies": {
     "commander": "^9.4.0",
     "fs-extra": "^11.1.1",
